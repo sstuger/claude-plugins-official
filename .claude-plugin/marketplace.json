@@ -591,6 +591,16 @@
       "homepage": "https://github.com/intercom/claude-plugin-external"
     },
     {
+      "name": "ip-ownership-advisor",
+      "description": "Guides developers and founders through IP ownership risks when joining a company, reviewing invention assignment agreements, protecting pre-existing IP, and planning non-provisional patent strategy.",
+      "category": "productivity",
+      "author": {
+        "name": "Enigma Strategic Ventures LLC",
+        "email": "sstuger@icloud.com"
+      },
+      "source": "./plugins/ip-ownership-advisor"
+    },
+    {
       "name": "jdtls-lsp",
       "description": "Java language server (Eclipse JDT.LS) for code intelligence",
       "version": "1.0.0",
