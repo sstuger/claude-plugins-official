@@ -6,11 +6,21 @@
 HELD on the inventor's local machine only and are NOT committed to any
 repository until the provisional filing is complete and confirmed by counsel.
 
-Documents under hold:
+Documents under hold, in `enigma-vault/local-hold/session-19-omnibus-redline/`
+(gitignored via `local-hold/` in the enigma-vault `.gitignore`):
 
 - `792026_00332Stuger_PROV_DRAFT_rev3.docx` — Jeff's original omnibus provisional draft
 - `792026_00332Stuger_PROV_DRAFT_rev3_REDLINE_Stuger.docx` — inventor's tracked-changes redline (77 revisions, authored "Shaun Stuger")
 - `792026_00332Stuger_FIGS_rev3.pdf` — 20-page figure set (FIG. 21–23 to be added per redline Note 5)
+
+SHA-256 integrity hashes (computed Session 19, 2026-07-11; manifest copy lives
+in the holding folder as `SHA256SUMS.txt`):
+
+```
+35a0a66945eec83a88a32f157444ae321b2701289cb881322bb76a5b3f7f885c  792026_00332Stuger_PROV_DRAFT_rev3.docx
+d09d74e9fb26a2ef46a0b04c931ad523ee82fd9b8df1237633760effb9329b39  792026_00332Stuger_PROV_DRAFT_rev3_REDLINE_Stuger.docx
+383a1b4c21b9c78e8c4e8b56717dcc53404fdc9185a126cf17bcb8ddb415ff1a  792026_00332Stuger_FIGS_rev3.pdf
+```
 
 **Once filing is complete and approved:** push these artifacts to the private
 `sstuger/enigma-vault` repository (suggested location:
